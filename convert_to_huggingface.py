@@ -225,9 +225,9 @@ def write_tokenizer(tokenizer_path, input_tokenizer_path):
 
 if __name__ == "__main__":
     write_model(
-        model_path="/home/corey/menlo/llama/llama-2-7b-huggingface",
-        input_base_path="/home/corey/menlo/llama/llama-2-7b",
-        model_size="7B",
+        model_path="/home/corey/menlo/llama/llama-2-13b-huggingface",
+        input_base_path="/home/corey/menlo/llama/llama-2-13b",
+        model_size="13B",
         safe_serialization=False,
         tokenizer_path="/home/corey/menlo/llama/tokenizer.model"
     )
